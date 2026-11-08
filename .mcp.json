@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-property-owner-records": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-property-owner-records"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

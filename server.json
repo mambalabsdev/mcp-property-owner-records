@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.mambabuilt/mcp-property-owner-records",
+  "description": "Owners of record and values from public county tax rolls in NC, NY, FL, CO, AR, and WI",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/mambalabsdev/mcp-property-owner-records",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@mambalabsdev/mcp-property-owner-records",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "APIFY_TOKEN",
+          "description": "Apify API token from https://console.apify.com/account/integrations",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

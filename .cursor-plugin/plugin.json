@@ -1,0 +1,31 @@
+{
+  "name": "mcp-property-owner-records",
+  "displayName": "Property Owner Records",
+  "version": "1.0.0",
+  "description": "MCP server for Property Owner Records. Owners of record, mailing address, and values from public county tax rolls in 6 US states. Runs on Apify.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-property-owner-records",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "property owner",
+    "parcel",
+    "county assessor",
+    "tax roll",
+    "real estate"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "property owner",
+    "parcel",
+    "county assessor",
+    "tax roll",
+    "real estate"
+  ],
+  "mcpServers": ".mcp.json"
+}

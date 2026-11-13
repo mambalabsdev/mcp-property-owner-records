@@ -1,6 +1,6 @@
 {
   "name": "@mambalabsdev/mcp-property-owner-records",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for Property Owner Records. Owners of record, mailing address, and values from public county tax rolls in 6 US states. Runs on Apify.",
   "type": "module",
   "bin": {
